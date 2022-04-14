@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<title>Employee Info</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="../styles.css">
+<script src="Javascript/empFunctions.js">
+	
+</script>
+
+</head>
+
+<body>
+
+	<div class="image-banner">
+
+		<img class="banner_logo"
+			src="../Imgs/Logo_Flag_of_the_Rebel_Alliance.jpg" alt="Rebel-Logo">
+
+		<img class="banner" src="../Imgs/Black_White_Banner_Bar.jpg"
+			alt="Rebel Logo"> <img class="background"
+			src="../Imgs/employee-info.jpg" alt="Rebel Hanger">
+
+	</div>
+	<main class="text-center">
+
+		<h1>Employee Reimbursement System</h1>
+
+		
+
+			<h2>Submit a Reimbursement Request</h2>
+
+			<div class="container" id="formDiv">
+
+				<section class="txt_field">
+					<label for="Id">Id :</label><br> <input type="text" id="Id"
+						name="Id" class="form-control"><br>
+				</section>
+
+				<section class="txt_field">
+					<label for="Amount">Amount :</label><br> <input type="text"
+						id="amount" name="amount" class="form-control"><br>
+				</section>
+
+				<section class="txt_field">
+					<label for="Description">Description :</label><br> <input
+						type="text" id="description" name="description"
+						class="form-control"><br>
+				</section>
+
+				<button type="submit" class="submit_button" onclick="postReimb()">Submit</button>
+				<br>
+				<a type="button" class="submit_button" href="employee-options.html">Go Back</a>
+			</div>
+
+		
+	</main>
+</body>
+</html>

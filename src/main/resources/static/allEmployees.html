@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<title>Employee Info</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="Javascript/manFunctions.js">
+	
+</script>
+
+</head>
+
+<body onload="empTable()">
+	<h1>Employee Reimbursement System</h1>
+	<h2>View All Employees</h2>
+
+	<styles> html, body { margin: 0; padding: 0; height: 150vh;
+	font-family: Roboto, "Helvetica Neue", sans-serif; } .banner_logo {
+	display: block; margin-left: auto; margin-right: auto; left: 45%;
+	z-index: -1; position: absolute; max-height: 100px; } .banner {
+	position: absolute; z-index: -2; min-width: 100%; max-height: 100px }
+
+	.background { position: fixed; z-index: -3; max-width: 100%; opacity:
+	0.6; } .text-center { position: absolute; top: 65%; left: 50%;
+	transform: translate(-50%, -50%); width: 700px; height: auto;
+	background: rgb(81, 91, 102); border-radius: 10px; } .div { margin:
+	30px 0; padding: 0 30px 0 30px; } .text-center h3 { text-align: center;
+	} .text-center h2 { text-align: center; } .text-center h1 { text-align:
+	center; padding: 0 0 20px 0; border-bottom: 1px solid black; }
+
+	.text-center{ padding: 0 40px; box-sizing: border-box; } </styles>
+
+
+	<div class="container" id="formDiv">
+
+		<table id="table" class="table table-hover">
+			<thead>
+				<tr>
+					<th class="text-center">Id</th>
+					<th class="text-center">Username</th>
+					<th class="text-center">Password</th>
+					<th class="text-center">First Name</th>
+					<th class="text-center">Last Name</th>
+					<th class="text-center">Email</th>
+
+
+
+				</tr>
+			</thead>
+			<tbody id="tableBody">
+				<!-- Data dynamically populated -->
+
+
+			</tbody>
+		</table>
+	</div>
+
+
+	</div>
+
+
+
+</body>
+</html>

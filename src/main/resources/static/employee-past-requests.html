@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<script src="Javascript/empFunctions.js"></script>
+
+<title>Employee Past Requests</title>
+</head>
+
+<body>
+	
+	<h1>Employee Reimbursement System</h1>
+	<h2>View Your Old Requests</h2>
+
+	<div class="container" id="formDiv">
+
+		<label for="acctid">Please Enter Your Account Id To View Your
+			Requests :</label><br> <input type="text" id="acctId" name="acctId"
+			class="form-control"><br>
+
+
+		<button type="submit" class="submit_button" onclick="empInfoById()">Submit</button>
+		<br>
+
+	</div>
+	<br>
+
+	<div class="container" id="formDiv">
+
+		<table id="table" class="table table-hover">
+			<thead>
+				<tr>
+					<th class="text-center">Id</th>
+					<th class="text-center">Amount</th>
+					<th class="text-center">Description</th>
+					<th class="text-center">Author</th>
+					<th class="text-center">Date Submitted</th>
+					<th class="text-center">Date Approved</th>
+					<th class="text-center">Resolver</th>
+					<th class="text-center">Status</th>
+					<th class="text-center">Type</th>
+				</tr>
+			</thead>
+			<tbody id="idRembBody">
+				<!-- Data dynamically populated -->
+
+
+			</tbody>
+		</table>
+
+	</div>
+
+</body>
+</html>

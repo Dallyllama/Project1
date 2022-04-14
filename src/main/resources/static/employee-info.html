@@ -1,0 +1,79 @@
+<html>
+
+<head>
+<title>Employee Info</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="styles.css">
+<script src="Javascript/empFunctions.js">
+	
+</script>
+
+</head>
+
+<body>
+
+	<div class="image-banner">
+
+		<img class="banner_logo"
+			src="../Imgs/Logo_Flag_of_the_Rebel_Alliance.jpg" alt="Rebel-Logo">
+
+		<img class="banner" src="../Imgs/Black_White_Banner_Bar.jpg"
+			alt="Rebel Logo"> <img class="background"
+			src="../Imgs/employee-info.jpg" alt="Rebel Hanger">
+
+	</div>
+
+	<main class="text-center" style="margin: 200px 0 0 0">
+
+		<h1>Personnel Identification Manipulation</h1>
+		<h2>So I Hear You Need To Disappear</h2>
+
+		
+			<label for="userName">Enter Your Account Username :</label><br>
+			<section class="txt_field">
+				<input type="text" id="userName" name="userName"
+					class="form-control">
+			</section>
+
+			<button type="submit" class="submit_button" onclick="dispInfo()">Submit</button>
+
+			<section class="txt_field">
+				<label for="userId">Id :</label><br> <input type="text"
+					id="userId" name="userId" class="form-control"><br>
+			</section>
+
+			<section class="txt_field">
+				<label for="userFirst">First Name :</label><br> <input
+					type="text" id="userFirst" name="userFirst" class="form-control"><br>
+			</section>
+
+			<section class="txt_field">
+				<label for="userLast">Last Name :</label><br> <input
+					type="text" id="userLast" name="userLast" class="form-control"><br>
+			</section>
+
+			<!--<button type="submit" class="btn btn-primary" onclick="dispInfo()">Edit</button><br>-->
+			<section class="txt_field">
+				<label for="username">Username :</label><br> <input type="text"
+					id="username" name="username" class="form-control"><br>
+			</section>
+
+			<section class="txt_field">
+				<label for="pass">Password :</label><br> <input type="text"
+					id="pass" name="pass" class="form-control"><br>
+			</section>
+
+			<section class="txt_field">
+				<label for="userEmail">Email :</label><br> <input type="text"
+					id="userEmail" name="userEmail" class="form-control"><br>
+			</section>
+
+			<button type="submit" class="submit_button" onclick="updateInfo()">Create New Identity</button>
+			<br>
+			<a type="button" class="submit_button" href="employee-options.html">Go Back</a>
+		
+	</main>
+</body>
+</html>
